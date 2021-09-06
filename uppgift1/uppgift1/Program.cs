@@ -35,6 +35,7 @@ namespace uppgift1
             
             string longestFood = "";
 
+
             // Printa längsta maträtten
             for (int i = 0; i < foods.Length - 1; i++) // foods.Length är alltid 1 mer än vad datorn räknar till därför - 1
             {
