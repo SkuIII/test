@@ -18,7 +18,6 @@ namespace uppgift1
                 foods[i] = Console.ReadLine();
             }
 
-            
             // Printar varje maträtt på samma rad
             foreach (var meal in foods)
             {
@@ -46,7 +45,7 @@ namespace uppgift1
                 }
             }
 
-            Console.WriteLine($"Maträtten med mest bokstäver är: {longestFood}");
+            Console.WriteLine($"Maträtten med mest bokstäver är: {longestFood}!");
         }
     }
 }
