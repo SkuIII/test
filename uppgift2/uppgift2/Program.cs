@@ -7,7 +7,7 @@ namespace uppgift2
         static void Main(string[] args)
         {
             Console.WriteLine("Vad är ditt favoritcitat?");
-            string favQuote = Console.ReadLine();
+            string favQuote = Console.ReadLine(); // input
             int wordCount = 0;
 
             // Loopa genom strängen
@@ -27,7 +27,7 @@ namespace uppgift2
             // Dela upp strängen vid varje mellanslag
             string[] splitString = favQuote.Split(' ');
 
-            // Loopa genom den splittade strängen och printa varje ord
+            // Loopa genom den splittade strängen och mata ut varje ord
             foreach (string word in splitString)
             {
                 Console.WriteLine(word);
