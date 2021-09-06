@@ -7,14 +7,15 @@ namespace uppgift3
         static void Main(string[] args)
         {
              Console.WriteLine("Skriv ett palindrom: ");
-             string input = Console.ReadLine();
+             string input = Console.ReadLine(); 
 
-             // Gör om strängen till en array och vänd på den, spara sen i en ny variabel
+             // Gör om strängen till en array och vänder på den, spara sen i en ny variabel
              char[] myArr = input.ToCharArray();
              Array.Reverse(myArr);
              string palindrom = new string(myArr);
 
-             Console.WriteLine($"{input}\n{palindrom}");
+            // Printar strängen fram och baklänges på olika rader
+            Console.WriteLine($"{input}\n{palindrom}");
         }
     }
 }
